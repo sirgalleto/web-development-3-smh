@@ -1,19 +1,8 @@
 <!DOCTYPE html>
 
-/* 
-Marks will be awarded for the following:
-
-Does the URL lead to the correct website?
-Appropriate semantic tags used, both the predefined tags and the appropriate use of div block tags.
-The range of different layout, formatting and media HTML tags used and their appropriate use (eg tables used as tables not for layout)
-Rich comments
-Accessibility, particularly in the use of the media tags. Tidy directory structure 
-To preview code: we can use this link. https://htmlpreview.github.io/
-Or this: https://galleto.xyz/web-development-3-smh/
-
-*/
-
 <html lang="en">
+  
+  /*Here is the meta-data for the website*/
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,13 +16,18 @@ Or this: https://galleto.xyz/web-development-3-smh/
         }
     </style>
     </head>
+  
+  
+    /*The body is what will be visible on the website*/  
     <body>
         <header>
             <h1>Hi Everyone, Welcome to our Theme Park Page</h1>
             <object data="media/AquaLand_Logo.png" alt="Logo" width="200" height="100"> 
             </object> 
         </header> 
-            
+        
+      /*This is the navigation header bar consistent on every page*/
+      
         <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -47,13 +41,15 @@ Or this: https://galleto.xyz/web-development-3-smh/
 
     <nav>
         <a> <img src="media/Aqua_Park_Photo_1.jpg" alt="Logo" width="1200" height="500"> </a>
-        <a>White large font here</a>
+        <a>Welcome to Aqua Park</a>
 
     </nav>
     
+    /* Ticket Purchasing */
+      
     <nav>
         
-        <a>What's on or schedule of show</a>
+        <a>What's On Our Schedule for the Show</a>
         <a>Hotel and ticket package/special offer </a>
         <a>Order ticket now</a>
     </nav>
@@ -62,16 +58,25 @@ Or this: https://galleto.xyz/web-development-3-smh/
     
     <div> <img src="media/Aqua_Park_Photo_1.jpg" alt="Picture of Rider or show that makes the park fun" width="800" height="300"> </div>
     
-    <table>
+
+    <div id="siteMap">
+        <h1>Site Map</h1>
+        <p1>Here is our Site Map</p1>
+    </div>
+    
+    
+    <footer> 
+      /*Business Hours at the bottom of every page*/
+          <table>
         <tr>
-            <th> business hours</th>
+            <th> Business Hours</th>
     
     
-            <th> contact info</th>
+            <th> Contact Info</th>
         </tr>
         <tr>
             <td>Mon 6AM - 10PM</td>
-            <td>Phone: 9999999993333333</td>
+            <td>Phone: 123-123-1234</td>
         </tr>
         <tr>
             <td>Tues 6AM - 10PM</td>
@@ -90,12 +95,8 @@ Or this: https://galleto.xyz/web-development-3-smh/
         </tr>
     
     </table>
-    <div id="siteMap">
-        <h1>Site Map</h1>
-        <p1>Here is our Site Map</p1>
-    </div>
-    
-    
-    <footer> copyright2020 allrights reserved</footer>
+      Copyright 2020 All Rights Reserved
+      
+      </footer>
     </body>
 </html>
