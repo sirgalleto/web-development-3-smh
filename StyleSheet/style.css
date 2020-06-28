@@ -1,0 +1,44 @@
+/* Common CSS -----------------------*/
+
+body{
+    background-color:darkturquoise;
+    }
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-variant:normal;
+    font-weight: normal;
+    color: yellow;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-variant:normal;
+    font-weight: normal;
+    color: yellow;
+    
+}
+
+
+
+/* Nav CSS ----------------------------------------*/
+
+nav li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-variant:normal;
+    font-weight: normal;
+    color: yellow;
+}
+
+/* Footer CSS ------------------------------------------*/
+
+footer th{
+       font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-variant:normal;
+    font-weight: normal;
+    color: yellow;
+}
