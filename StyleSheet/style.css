@@ -42,3 +42,11 @@ footer th{
     font-weight: normal;
     color: yellow;
 }
+
+footer td{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-variant:normal;
+    font-weight: normal;
+    color: yellow;   
+}
