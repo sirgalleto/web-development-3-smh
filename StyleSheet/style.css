@@ -14,7 +14,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(224,255,255);
 		float: center;
-		position:  absolute;
+		position: absolute;
 }
 
 
@@ -43,7 +43,16 @@ h1 {
     text-align:center;
      opacity:0.5;
     font-family: 'Metal Mania', cursive;
+    animation-name: title;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
+
+@keyframes title {
+    from {background-color: yellow;}
+    to {background-color: aquamarine;}
+}
+
 h2 {
     text-align:center;
     font-family: 'Metal Mania', cursive;
@@ -82,10 +91,21 @@ nav li{
     
 }
 
+.navblock{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 70%; 
+    
+}
+
 nav li:hover{
     background-color:rgb(255,255,255);
     color: rgb(173, 216, 230);
 }
+
+
+
 main {
 	float: center;
     display: block;
@@ -110,6 +130,25 @@ main #main-promo{
 	
 }
 
+.center {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+
+}
+
+photo1 {
+  position: relative;
+  animation: mymove 5s;
+}
+
+#generalphoto {animation-timing-function: ease-in-out;}
+
+@keyframes mymove {
+    from{left: 0px;}
+    to{left: 300px;}
+}
 
 /*Ticket Pricing*/
 #TicketPrice {
@@ -127,7 +166,9 @@ main #main-promo{
 
 #EventsShows{
     padding-left: 20%;
+    animation-timing-function: linear;
 }
+
 
 #More {
     font-size: 20px;
