@@ -13,32 +13,35 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(224,255,255);
+		float: center;
+		position:  absolute;
 }
 
 
 footer {
     font-size:15px;
+		padding: 20;
+    margin: 20;
+		float: bottom;
     
 }
 
-#colorblock {
-    background-color:rgba(0,0,255,1);
-    padding: 20px;
-}
+
 
 table,td,th {
     margin-left: 25%;
-border: 2px solid;
-border-radius: 5px;
-color: black;
-padding: 10px;
-text-align: center;
+		margin-top: 10%
+		border: 2px solid;
+		border-radius: 5px;
+		color: black;
+		padding: 10px;
+		text-align: center;
     width: 1000px;
 }
 
 h1 {
     text-align:center;
-       opacity:0.5;
+     opacity:0.5;
     font-family: 'Metal Mania', cursive;
 }
 h2 {
@@ -51,11 +54,24 @@ h3 {
     text-align:center;
 }
 
-.navbar {
-    overflow: hidden;
-    background-color: rgb(0, 127, 255);
+
+header #logo img{
+  float: left;
+	border: 4px dotted blue;
+	display:block;
+   margin-left:auto;
+   margin-right:auto; 
 }
-.navbar li{
+
+
+
+nav {
+    overflow: hidden;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav li{
     float: left;
     display: block;
     text-align: center;
@@ -66,38 +82,35 @@ h3 {
     
 }
 
-.navbar li:hover{
+nav li:hover{
     background-color:rgb(255,255,255);
     color: rgb(173, 216, 230);
 }
-
-.photos {
+main {
+	float: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    
-}
-
-.navblock {
-    background-color: rgb(173, 216, 230);
-    font-size: 20px;
+		margin-top: :30px;
+		margin-bottom: :50px;
     text-align: center;
+    padding: 20px 30px;
+    background-color: inherit;
+    font-size: 20px;
+    text-decoration: none;
+}
+main img{
+  float: center;
+	border: 4px dotted blue;
+	display:block;
+  margin-left:auto;
+  margin-right:auto; 
 }
 
-#logo {
-    display:block;
-    margin-left:auto;
-    margin-right:auto; 
-    float:left; 
+main #main-promo{
+	float: center;
+	
 }
-#generalphoto {
-    border-radius:10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
+
+
 /*Ticket Pricing*/
 #TicketPrice {
     text-align: center;
