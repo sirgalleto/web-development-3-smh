@@ -173,6 +173,10 @@ photo1 {
   animation: mymove 5s;
 }
 
+photo2 img:hover {
+    width:900px;
+    height:600px;
+}
 #generalphoto {animation-timing-function: ease-in-out;}
 
 @keyframes mymove {
