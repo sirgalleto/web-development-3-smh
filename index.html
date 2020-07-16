@@ -1,97 +1,78 @@
 <!DOCTYPE html>
 
-/* 
-Marks will be awarded for the following:
-
-Does the URL lead to the correct website?
-Appropriate semantic tags used, both the predefined tags and the appropriate use of div block tags.
-The range of different layout, formatting and media HTML tags used and their appropriate use (eg tables used as tables not for layout)
-Rich comments
-Accessibility, particularly in the use of the media tags. Tidy directory structure 
-To preview code: we can use this link. https://htmlpreview.github.io/
-Or this: https://galleto.xyz/web-development-3-smh/
-
-*/
-
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Roller Coaster</title>
+    
+    <! Here is the meta-data for the website>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Roller Coaster</title>
 
-    <!--<link rel="stylesheet" type="text/css" href="style.css">-->
-    <style> body {padding: 0; margin: 0;} 
-        table, tr, th {
-            border: 1px solid black;
-            padding: 20px
-        }
-    </style>
+        <link rel="stylesheet" type="text/css" href="Stylesheet/style.css">
+        <style> 
+
+        </style>
     </head>
+    
+    
+    <!The body is what will be visible on the website>
     <body>
-        <section id="welcome"> 
-            <h1>Hi Everyone, Welcome to our Theme Park Page</h1>
-        </section>
-        <nav>
+        <header>
+            <h1>Hi Everyone! Welcome to our Theme Park Page!</h1>
+            <div id="logo">
+            <a href="index.html"><img src="./Media/AquaLand_Logo.png" alt="Logo" width="200" height="100"></a> 
+            </div>
+        </header> 
+        
+    <!This is the navigation header bar consistent on every page>    
+        <nav class="navbar">
         <ul>
-            <li>
-                <a href="index.html">LOGO HERE</a>
-            </li>
-            <li>
-                <a href="index.html"> Home</a>
-            </li>
-            <li>
-                <a href="things-to-do.html">Things to do</a>
-            </li>
-            <li>
-                <a href="ticket-pricing.html">Ticket pricing</a>
-            </li>
-            <li>
-                <a> News Promotion</a>
-            </li>
-            <li>
-                <a> Price And Ticketing </a>
-            </li>
-            <li>
-                <a> Place to Stay</a>
-            </li>
-            <li>
-                <a> Planning & Help </a>
-            </li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="things-to-do.html">Things to do</a></li>
+            <li><a href="ticket-pricing.html">Price and Ticketing</a></li>
+            <li><a> News and Promotion</a></li>
+            <li><a> Places to Stay</a></li>
+            <li><a> Planning & Help</a></li>
+        </ul>
+        </nav>
+
+    <p id="colorblock"></p>
+        
+   <div class="container">
+        <a> <img src="./Media/Aqua_Park_Photo_Main_Page.jpg" alt="Logo" width="1024" height="600" class="center"> </a>
+       
+        <button class="btn"><a href="ticket-pricing.html">GET YOUR TICKETS NOW!</a></button>
+        <h3>AQUALAND</h3>
+            
+
+    </div>
+    
+        <p id="colorblock"></p>
+    <nav class="navblock">
+         <ul>
+            <li><a>What's on or schedule of show</a></li>
+            <li><a>Hotel and ticket package/special offer </a>
+            <li><a>Order ticket now</a></li>
         </ul>
     </nav>
 
-    <table>
     
+    
+    <photo1 id="generalphoto"> <img src="./Media/Aqua_Park_Photo_1.jpg" alt="Picture of Rider or show that makes the park fun" width="900" height="300" class="center"> </photo1>
+    
+       <photo2> <img src="./Media/Aqua_Park_Photo_5.jpg" alt="Picture of Rider or show that makes the park fun" width="300" height="300" class="center"> </photo2>
+    
+    <p id="colorblock"></p>
+    <footer> 
+      <!Business Hours at the bottom of every page>
+        <table>
         <tr>
-            <th>Ride or show picture here</th>
-            <th>white font large here</th>
-        </tr>
-    </table>
-    
-    
-    <table>
-        <tr>
-            <th>What's on or schedule of show</th>
-    
-            <th>hotel package</th>
-            <th>order ticket now</th>
-        </tr>
-    
-    </table>
-    
-    
-    <div> picture of fun </div>
-    
-    <table>
-        <tr>
-            <th> business hours</th>
-    
-    
-            <th> contact info</th>
+            <th> Business Hours</th>
+            <th> Contact Info</th>
         </tr>
         <tr>
             <td>Mon 6AM - 10PM</td>
-            <td>Phone: 9999999993333333</td>
+            <td>Phone: 123-123-1234</td>
         </tr>
         <tr>
             <td>Tues 6AM - 10PM</td>
@@ -109,17 +90,10 @@ Or this: https://galleto.xyz/web-development-3-smh/
             <td>Sat/Sun CLOSED</td>
         </tr>
     
-    </table>
-    <sectionid="siteMap">
-        <h1>Site Map</h1>
-        <map>
-            Here is our Site Map
-        </map>
-    </section>
-    
-    <footer> 
+        </table>
+        
         <span>
-            copyright allright reserved
+            <i>Copyright 2020 All Rights Reserved</i>
         </span>
     </footer>
     </body>
