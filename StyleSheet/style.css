@@ -56,11 +56,8 @@ footer {
     float: bottom;
 }
 
-
-
 table,td,th {
-    margin-left: 25%;
-    margin-top: 10%;
+    margin: auto;
     border: 2px solid;
     border-radius: 5px;
     color: black;
@@ -200,13 +197,14 @@ photo2 img:hover {
 #ExpressPass {
     text-align: center;
 }
-/*Things to do*/
-#Attraction {
-    padding-left: 10%
+
+.images-container {
+    text-align: center;
 }
 
+/*Things to do*/
+
 #EventsShows{
-    padding-left: 20%;
     animation-timing-function: linear;
 }
 
@@ -218,4 +216,8 @@ photo2 img:hover {
 
 .divider { 
     height: 16px;
+}
+
+ul, li {
+  list-style-type: none;
 }
