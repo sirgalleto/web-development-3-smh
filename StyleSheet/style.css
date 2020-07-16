@@ -4,6 +4,7 @@
 div {
     font-family: myFirstFont;
 }
+
 header {
     background-color: rgb(0,191,255);
 }
@@ -169,6 +170,7 @@ main #main-promo{
 }
 
 photo1 {
+    margin: 10px;
     position: relative;
     animation: mymove 5s;
 }
@@ -177,6 +179,11 @@ photo2 img:hover {
     width:900px;
     height:600px;
 }
+
+.images-photo__centered {
+    margin: 10px;
+}
+
 #generalphoto {animation-timing-function: ease-in-out;}
 
 @keyframes mymove {
@@ -207,4 +214,8 @@ photo2 img:hover {
 #More {
     font-size: 20px;
     align-content: center;
+}
+
+.divider { 
+    height: 16px;
 }
