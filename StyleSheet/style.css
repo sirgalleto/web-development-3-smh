@@ -219,3 +219,19 @@ photo2 img:hover {
 ul, li {
   list-style-type: none;
 }
+
+footer > span {
+    display: block;
+    margin: 50px 0;
+}
+
+.attraction-gallery__row li {
+    display: inline-block;
+    font-size: 0;
+}
+
+.footer_row > * {
+    margin: 50px 0;
+    display: inline-block;  
+    vertical-align: top;
+}
