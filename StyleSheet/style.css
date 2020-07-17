@@ -14,14 +14,14 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(224,255,255);
-    float: center;
-    position: absolute;
+    text-align: center;
 }
 
 .container {
     position: relative;
     width:100%;
-    max-width 1000px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .container img {
@@ -108,8 +108,7 @@ nav {
 }
 
 nav li{
-    float: left;
-    display: block;
+    display: inline-block;
     text-align: center;
     padding: 20px 30px;
     background-color: inherit;
@@ -191,7 +190,6 @@ photo2 img:hover {
 /*Ticket Pricing*/
 #TicketPrice {
     text-align: center;
-    
 }
 
 #ExpressPass {
