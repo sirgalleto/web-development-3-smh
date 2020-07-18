@@ -236,3 +236,26 @@ footer > span {
     display: inline-block;  
     vertical-align: top;
 }
+
+div.sitemap--column {
+    display: inline-block;
+    vertical-align: top;
+    min-width: 300px;
+}
+
+section.sitemap {
+    background-color: lightgray;
+    padding: 40px 0;
+}
+
+div.sitemap--column > * {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+ul.sitemap-list {
+    list-style: none;
+    text-align: left;
+    padding-inline-start: 10px;
+    line-height: 2em;
+}
