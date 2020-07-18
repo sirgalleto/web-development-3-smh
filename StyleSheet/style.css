@@ -176,6 +176,7 @@ main #main-promo{
 #secondaryphoto img:hover {
     width:900px;
     height:600px;
+    transition: all 200ms linear;
 }
 
 .images-photo__centered {
