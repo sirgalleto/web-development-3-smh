@@ -324,3 +324,8 @@ ul.sitemap-list {
     padding-inline-start: 10px;
     line-height: 2em;
 }
+
+.seassonal-promotions--banner > p {
+    font-size: .8em;
+    color: gray;
+}
