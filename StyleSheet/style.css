@@ -175,7 +175,7 @@ main #main-promo{
 
 #secondaryphoto img:hover {
     width:900px;
-    height:600px;
+    height:auto;
     transition: all 200ms linear;
 }
 
@@ -184,6 +184,7 @@ main #main-promo{
 }
 
 #generalphoto {
+    float: left;
     animation-timing-function: ease-in-out;
     margin: 10px;
     position: relative;
