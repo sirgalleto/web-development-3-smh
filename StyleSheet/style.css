@@ -173,13 +173,7 @@ main #main-promo{
 
 }
 
-photo1 {
-    margin: 10px;
-    position: relative;
-    animation: mymove 5s;
-}
-
-photo2 img:hover {
+#secondaryphoto img:hover {
     width:900px;
     height:600px;
 }
@@ -188,11 +182,20 @@ photo2 img:hover {
     margin: 10px;
 }
 
-#generalphoto {animation-timing-function: ease-in-out;}
+#generalphoto {
+    animation-timing-function: ease-in-out;
+    margin: 10px;
+    position: relative;
+    animation: mymove 5s;
+}
 
 @keyframes mymove {
-    from{left: 0px;}
-    to{left: 300px;}
+    from{
+        left: 0px;
+    }
+    to{
+        left: 300px;
+    }
 }
 
 /*Ticket Pricing*/
