@@ -286,16 +286,23 @@ footer > span {
     font-size: 0;
 }
 
-.footer_row > * {
+.footer_row {
     margin: 50px 0;
-    display: inline-block;  
-    vertical-align: top;
-}
+}  
 
 div.sitemap--column {
     display: inline-block;
     vertical-align: top;
     min-width: 300px;
+}
+
+.sitemap--column > h3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.sitemap--column > h3 a:visited {
+    color: inherit;
 }
 
 section.sitemap {
