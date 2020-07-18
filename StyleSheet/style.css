@@ -222,7 +222,8 @@ ul, li {
 
 footer > span {
     display: block;
-    margin: 50px 0;
+    margin: 50px 100px;
+    text-align: left;
 }
 
 .attraction-gallery__row li {
