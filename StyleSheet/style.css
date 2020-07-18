@@ -122,7 +122,15 @@ nav li{
     margin-left:auto;
     margin-right:auto;
     width: 70%; 
-    
+}
+
+.navblock a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navblock a:visited {
+    color: inherit;
 }
 
 nav li:hover{
