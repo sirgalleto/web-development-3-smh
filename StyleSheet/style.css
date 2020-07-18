@@ -195,7 +195,53 @@ photo2 img:hover {
     to{left: 300px;}
 }
 
-/*Ticket Pricing use*/
+/*Ticket Pricing*/
+/*grid-setting*/
+/*refernce from
+ https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-gap2
+*/
+
+.title-grid-container {
+  display: grid;
+
+  grid-template-columns: 60% 40%;
+  background-color: rgb(0,191,255);
+  opacity:0.8;
+  margin: 100px 0px 5px 0px;
+  padding: 10px ;
+ 
+}
+
+.title-grid-item {
+  
+  background-color: rgb(0,191,255);
+  padding: 0px 100px;
+  font-size: 30px;
+  text-align: left;
+  color: rgb(243, 6, 247);
+}
+
+.grid-container {
+  display: grid;
+
+  grid-template-columns: 40% 20% 40%;
+  background-color: rgb(224,255,255);
+  margin: 10px 100px 20px 70px;
+  padding: 0px;
+  border-width:5px;  
+  border-style:dotted;
+  
+}
+
+.grid-item {
+  
+  border: 1px solid ;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
 #TicketPrice {
     text-align: center;
 }
@@ -207,6 +253,7 @@ photo2 img:hover {
 .images-container {
     text-align: center;
 }
+
 
 /*Things to do*/
 
