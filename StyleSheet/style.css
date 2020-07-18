@@ -186,15 +186,18 @@ main #main-promo{
     animation-timing-function: ease-in-out;
     margin: 10px;
     position: relative;
-    animation: mymove 5s;
+    animation: mymove 10s linear infinite;
 }
 
 @keyframes mymove {
-    from{
+    0% {
         left: 0px;
     }
-    to{
-        left: 300px;
+    50%{
+        left: calc(100% - 900px);
+    }
+    100% {
+        left: 0px;
     }
 }
 
