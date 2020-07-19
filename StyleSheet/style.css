@@ -184,13 +184,16 @@ main #main-promo{
 }
 
 #generalphoto {
-    float: left;
+    width: fit-content;
     animation-timing-function: ease-in-out;
     margin: 10px;
     position: relative;
     animation: mymove 10s linear infinite;
     min-height: 300px;
-    width: 100%;
+}
+
+#generalphoto > img {
+    float: left;
 }
 
 @keyframes mymove {
