@@ -349,7 +349,7 @@ ul.sitemap-list {
 }
 
 .water-park-facilities--row__left {
-    flex: 3;
+    flex: 2;
 }
 
 .water-park-facilities--row__left > * {
@@ -358,4 +358,11 @@ ul.sitemap-list {
 
 .water-park-facilities--row__right {
     flex: 1;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.water-park-facilities--row__right > * {
+    text-align: left;
 }
