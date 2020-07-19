@@ -180,31 +180,26 @@ main #main-promo{
 }
 
 .images-photo__centered {
-    margin: 10px;
+    display: block;
+    margin: 10px 0;
+    text-align: left;
 }
 
 #generalphoto {
-    width: fit-content;
+    display: inline;
     animation-timing-function: ease-in-out;
-    margin: 10px;
-    position: relative;
     animation: mymove 10s linear infinite;
-    min-height: 300px;
-}
-
-#generalphoto > img {
-    float: left;
 }
 
 @keyframes mymove {
     0% {
-        left: 0px;
+        margin-left: 0px;
     }
     50%{
-        left: calc(100% - 900px);
+        margin-left: calc(100vw - 915px);
     }
     100% {
-        left: 0px;
+        margin-left: 0px;
     }
 }
 
