@@ -56,7 +56,7 @@ footer {
     float: bottom;
 }
 
-table,td,th {
+table.info_business-hours, table.info_business-hours td, table.info_business-hours th {
     margin: auto;
     border: 2px solid;
     border-radius: 5px;
@@ -345,12 +345,17 @@ ul.sitemap-list {
 }
 
 .water-park-facilities--container {
-    
+    display: flex;
 }
 
 .water-park-facilities--row__left {
-    width: 60%;
+    flex: 3;
 }
+
+.water-park-facilities--row__left > * {
+    margin: 30px 0;
+}
+
 .water-park-facilities--row__right {
-    width: 40%;
+    flex: 1;
 }
