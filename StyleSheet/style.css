@@ -189,6 +189,7 @@ main #main-promo{
     margin: 10px;
     position: relative;
     animation: mymove 10s linear infinite;
+    min-height: 300px;
 }
 
 @keyframes mymove {
